@@ -24,7 +24,7 @@ Alfred.with_friendly_error do |alfred|
 
   response['search']['movies'].each do |movie|
     fb.add_item({
-      title: movie['title'],
+      title: "#{movie['title']} (#{movie['year']})",
       subtitle: "Copy Movie ID #{movie['id']}",
       arg: movie['id'],
       # icon: movie['poster_url'],
@@ -34,7 +34,7 @@ Alfred.with_friendly_error do |alfred|
 
   response['search']['shows'].each do |show|
     fb.add_item({
-      title: show['title'],
+      title: "#{show['title']} (#{show['year']})",
       subtitle: "Copy Show ID #{show['id']}",
       arg: show['id'],
       # icon: show['poster_url'],
