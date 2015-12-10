@@ -1,0 +1,6 @@
+# bundle_id = "domain.id"
+# path is the relative path to the workflow in the project root
+---
+path: workflow
+domain: com.gowatchit
+id: search-alfred-workflow

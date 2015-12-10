@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    alfred-workflow (1.8.0)
+      plist (>= 3.1.0)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    plist (3.1.0)
+    yaml (4.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alfred-workflow
+  httparty
+  plist
+  yaml
+
+BUNDLED WITH
+   1.10.6
